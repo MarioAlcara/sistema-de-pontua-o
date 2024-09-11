@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jogo de Pontuação</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="game">
+            <h1>Sistema de Pontuação</h1>
+            <label for="pontos">Insira sua pontuação:</label>
+            <input type="number" id="pontos" min="0">
+            <button onclick="verificarPontuacao()">Verificar Pontuação</button>
+            <p id="resultado"></p>
+        </div>
+
+        <div id="imagem"></div> <!-- Div onde a imagem será exibida -->
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

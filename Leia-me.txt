@@ -1,0 +1,12 @@
+A ideia desse jogo é mostrar a logica da pontuação onde "if" entra o numero positivo e "else" entra em negativo onde no caso, o jogador perde caso numero seja menor que 100 ou ganhe se for maior ou igual a 100!
+
+Esse programa recebe uma pontuação inserida pelo usuário, verifica se ela é maior ou igual a 100, e exibe uma mensagem de "Parabéns, você venceu!" se for, ou "Tente novamente para ganhar" se não for. Dependendo do resultado, ele também mostra uma imagem de vitória ou derrota logo abaixo da mensagem. A lógica é implementada em JavaScript, e o layout, incluindo a exibição das imagens, é feito com CSS. 
+
+os comandos da logica:
+
+document.getElementById('pontos').value: Obtém o valor inserido pelo usuário.
+if (pontos >= 100): Verifica se a pontuação é 100 ou mais.
+resultado.textContent: Atualiza a mensagem exibida para o usuário.
+imagemDiv.classList.add('vencedor'): Adiciona uma classe para exibir a imagem de vitória.
+imagemDiv.classList.add('perdedor'): Adiciona uma classe para exibir a imagem de derrota.
+
